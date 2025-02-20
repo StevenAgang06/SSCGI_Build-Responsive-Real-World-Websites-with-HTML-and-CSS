@@ -22,19 +22,33 @@ main ul {
   width: 55%;
 }
 main ul li {
-  margin-inline: 0.5rem;
   list-style: none;
+  margin-inline: 0.7rem;
+}
+
+main ul li a {
+  text-decoration: none;
+  color: black;
   cursor: pointer;
-  padding: 0.4rem;
-  border-radius: 70%;
-  width: 32px;
-  height: 32px;
+  padding-inline: 0.6rem;
+  padding-block: 0.3rem;
+  width: 42px;
+  height: 42px;
+  font-size: 1rem;
   font-weight: 600;
 }
 
-main ul li:nth-child(3) {
+main ul li a:active,
+main ul li a:hover {
   background-color: #1c7ed6;
   color: white;
+  border-radius: 50%;
+}
+
+main ul li:nth-child(3) a {
+  background-color: #1c7ed6;
+  color: white;
+  border-radius: 50%;
 }
 
 main button {
