@@ -1,0 +1,92 @@
+/*  Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  width: 50%;
+  margin: 10rem auto;
+  color: white;
+}
+
+main section {
+  width: 90%;
+  background-color: #1c7ed6;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 14px;
+  position: relative;
+  align-items: center;
+}
+
+main section figure {
+  outline: 1px solid green;
+}
+
+main section figcaption {
+  width: 50%;
+  padding: 2rem;
+  letter-spacing: 1.5px;
+  margin-left: 1rem;
+}
+
+main section figcaption p:nth-child(2) {
+  margin-top: 2rem;
+  margin-bottom: 0.3rem;
+  font-weight: 400;
+}
+
+main section figcaption p:last-child {
+  font-size: 12px;
+  color: whitesmoke;
+  font-weight: 400;
+}
+
+img {
+  transform: scale(1.1);
+  border-radius: 14px;
+  width: 264px;
+}
+
+main button {
+  border: none;
+  padding: 0.5rem;
+  background-color: white;
+  position: absolute;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+  height: 42px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+main .left {
+  left: -1rem;
+}
+
+main .right {
+  right: -1rem;
+}
+
+main .prev {
+  width: 24px;
+}
+
+main .next {
+  width: 24px;
+}
+
+main form {
+  width: 50%;
+  margin: 1.5rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+main form input[type="radio"] {
+  margin-inline: 3px;
+  width: 1rem;
+}
