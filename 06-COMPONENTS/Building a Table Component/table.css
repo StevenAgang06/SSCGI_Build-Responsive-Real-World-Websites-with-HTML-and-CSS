@@ -1,0 +1,41 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  width: 40%;
+  margin: 10rem auto;
+}
+
+main table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+main table tr th {
+  padding-block: 1rem;
+  background-color: #1c7ed6;
+  padding-inline: 0.5rem;
+  color: white;
+}
+
+main table tr td {
+  padding-block: 1rem;
+  padding-inline: 0.5rem;
+}
+
+main tr td:first-child {
+  font-weight: 600;
+}
+
+main tr:nth-child(even) {
+  background-color: #f1f3f5;
+}
+main tr:nth-child(odd) {
+  background-color: #adb5bd;
+}
