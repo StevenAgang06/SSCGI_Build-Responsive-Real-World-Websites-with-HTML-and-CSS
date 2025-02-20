@@ -10,56 +10,67 @@ main {
   width: 40%;
   margin: 0 auto;
 }
+
 main .accordion {
   width: 100%;
   margin-block: 2rem;
-  display: flex;
-  justify-content: space-between;
   padding: 16px;
   font-size: 24px;
   box-shadow: 0px 12px 20px 0 rgba(0, 0, 0, 0.1);
-  align-items: flex-start;
   font-weight: 500;
+  height: 4.2rem;
+  overflow: hidden;
 }
+
+main .accordion section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+main .accordion section p:nth-child(2) {
+  flex: 1 0 0;
+  margin-left: 1rem;
+}
+
 main .accordion .drop {
   width: 24px;
   stroke: tomato;
 }
-main .accordion p:nth-child(2) {
-  margin-right: 11rem;
-}
-main .accordion:nth-child(odd) p:first-child {
+
+main .close p:first-child {
   color: gray;
 }
-main .accordion:nth-child(even) {
+
+main .open {
   height: 20rem;
   border-top: 5px solid tomato;
   position: relative;
 }
-main .accordion:nth-child(even) p {
+
+main .open p {
   color: tomato;
 }
-main .accordion:nth-child(even) article {
-  margin-block: 2rem;
+
+main .accordion article {
   font-size: 14px;
   align-self: center;
-  position: absolute;
-  width: 80%;
-  top: 2rem;
-  right: 0;
-  left: 0;
-  bottom: 0;
   margin: 0 auto;
   letter-spacing: 1.5px;
+  width: 85%;
 }
-main .accordion:nth-child(even) article p {
+
+main .accordion article p {
   color: black;
   margin-bottom: 1.2rem;
 }
-main .accordion:nth-child(even) article ul {
+
+main .accordion article ul {
   color: gray;
   margin-left: 1.1rem;
 }
-main .accordion:nth-child(even) article ul li {
+
+main .accordion article ul li {
   margin-block-start: 0.5rem;
 }
