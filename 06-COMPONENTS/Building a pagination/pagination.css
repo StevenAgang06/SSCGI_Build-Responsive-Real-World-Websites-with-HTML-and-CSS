@@ -1,0 +1,66 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  width: 50%;
+  margin: 10rem auto;
+}
+
+main ul {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 55%;
+}
+main ul li {
+  margin-inline: 0.5rem;
+  list-style: none;
+  cursor: pointer;
+  padding: 0.4rem;
+  border-radius: 70%;
+  width: 32px;
+  height: 32px;
+  font-weight: 600;
+}
+
+main ul li:nth-child(3) {
+  background-color: #1c7ed6;
+  color: white;
+}
+
+main button {
+  width: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid #1c7ed6;
+  background-color: transparent;
+  position: absolute;
+  cursor: pointer;
+  padding: 0.6rem;
+}
+
+main .left {
+  left: 0;
+}
+
+main .right {
+  right: 0;
+}
+
+main .prev {
+  stroke: #1c7ed6;
+  width: 18px;
+}
+
+main .next {
+  stroke: #1c7ed6;
+  width: 18px;
+}
